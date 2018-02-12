@@ -24,7 +24,7 @@
          check_ready/1
         ]).
 
-%% @doc This function takes a list of pysical nodes connected to the an
+%% @doc This function takes a list of physical nodes connected to the an
 %% instance of the antidote distributed system.  For each of the phyisical nodes
 %% it checks if all of the vnodes have been initialized, meaning ets tables
 %% and gen_servers serving read have been started.

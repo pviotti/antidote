@@ -13,7 +13,7 @@ A more convenient but restricted way for client applications to interact with An
 ## CRDTs
 
 Antidote provides a library of CRDTs. 
-The interface of these CRDTs specify the operations and the parameters that can be used for inspection and modification of shared objects. 
+The interface of these CRDTs specifies the operations and the parameters that can be used for inspection and modification of shared objects. 
 In the following, we specify the supported `{operation(), op_param()}` pair for each of the supported CRDTs. 
 The first element in the tuple specifies the update operation, and the second item indicates the corresponding parameters.
 
